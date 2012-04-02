@@ -36,6 +36,8 @@ The output would take the form:
 ```javascript
 { tag: 'Foo',
   attrs: { Name: 'John', Status: 'Student' },
-  children: 
-   [ { tag: 'Color', text: 'blue' ]
+  children: [
+    { tag: 'Color', text: 'blue'} 
+  ]
+}
 ```
