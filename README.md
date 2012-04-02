@@ -26,7 +26,7 @@ var bigXml = require('big-xml');
     
 var reader = bigXml.createReader('data.xml.gz', /^(Foo|Bar)$/, { gzip: true });
 
-reader.on('record', function(record, tag) {
+reader.on('record', function(record) {
   console.log(record);
 });
 ```
