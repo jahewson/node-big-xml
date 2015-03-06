@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cheneyyan/node-big-xml.svg?branch=master)](https://travis-ci.org/cheneyyan/node-big-xml)
+
 # big-xml -- Lightweight XML parser for really big files
 
 A record-by-record XML reader, for [node.js](http://nodejs.org/), based on [node-expat](https://github.com/astro/node-expat).
