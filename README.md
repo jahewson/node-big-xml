@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/cheneyyan/node-big-xml.svg?branch=master)](https://travis-ci.org/cheneyyan/node-big-xml)
+[![Dependency Status](https://david-dm.org/cheneyyan/node-big-xml.svg)](https://david-dm.org/cheneyyan/node-big-xml)
 
 # big-xml -- Lightweight XML parser for really big files
 
