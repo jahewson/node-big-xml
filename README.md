@@ -41,3 +41,20 @@ The output would take the form:
   ]
 }
 ```
+
+
+#Pause and resume
+
+You can pause and resume the stream in any moment, in order to make asyncs calls.
+
+
+
+```javascript
+reader.on('record', function(record) {
+  console.log(record);
+  reader.pause();
+  setTimeout(function(){ reader.resume(); }, 3000);
+  
+});
+```
+
