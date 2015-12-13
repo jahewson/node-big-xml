@@ -1,6 +1,6 @@
 {
   "name": "big-xml-streamer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lightweight XML parser for really big files (uses node-expat)",
   "main": "index.js",
   "directories": {
@@ -32,20 +32,9 @@
   },
   "devDependencies": {},
   "keywords": [
-    "slug",
-    "url",
-    "permalink",
-    "slugify",
-    "seo",
-    "mongoose",
-    "generator",
-    "unique",
-    "seo friendly url",
-    "user friendly url",
-    "nice looking url",
-    "pretty url",
-    "clean url",
-    "static url",
-    "nice url"
+    "xml",
+    "parser",
+    "stream",
+    "expat"
   ]
 }
