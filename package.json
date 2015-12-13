@@ -1,6 +1,6 @@
 {
   "name": "big-xml-streamer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight XML parser for really big files (uses node-expat)",
   "main": "index.js",
   "directories": {
