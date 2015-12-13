@@ -12,7 +12,7 @@ Designed for big XML files (1GB+), and low memory usage.
 
 ## Install
 
-    npm install big-xml
+    npm install big-xml-streamer
 
 or from source:
 
@@ -28,7 +28,7 @@ You must specify which XML elements should be considered as the root of a record
 example the elements Foo and Bar will be emitted as records.
 
 ```javascript
-var bigXml = require('big-xml');
+var bigXml = require('big-xml-streamer');
     
 var reader = bigXml.createReader('data.xml.gz', /^(Foo|Bar)$/, { gzip: true });
 
