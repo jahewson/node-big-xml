@@ -1,7 +1,7 @@
 # big-xml-streamer -- Lightweight XML parser for really big files
 
-Fork of [big-xml](https://www.npmjs.com/package/big-xml)
 ## Note
+This is a fork of [big-xml](https://www.npmjs.com/package/big-xml)
 **big-xml** is a great plugin that wasn't update for 4 years, so that, we have created a fork, with an update it with the capability of pause/resume the stream.
 
 # Resume
