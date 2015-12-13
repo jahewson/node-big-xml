@@ -2,6 +2,7 @@
 
 ## Note
 This is a fork of [big-xml](https://www.npmjs.com/package/big-xml)
+
 **big-xml** is a great plugin that wasn't update for 4 years, so that, we have created a fork, with an update it with the capability of pause/resume the stream.
 
 # Resume
@@ -20,7 +21,7 @@ or from source:
     cd node-big-xml
     npm link
 
-#Example
+# Example
 
 XML files are streamed, and parsed one record at a time, which keeps memory usage low.
 
@@ -49,7 +50,7 @@ The output would take the form:
 ```
 
 
-#Pause and resume
+# Pause and resume
 
 You can pause and resume the stream in any moment, in order to make asyncs calls.
 
