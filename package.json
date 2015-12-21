@@ -1,22 +1,40 @@
 {
-  "author": "John Hewson",
-  "name": "big-xml",
+  "name": "big-xml-streamer",
+  "version": "0.0.5",
   "description": "Lightweight XML parser for really big files (uses node-expat)",
-  "version": "0.7.0",
-  "homepage": "https://github.com/jahewson/node-big-xml",
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jahewson/node-big-xml.git"
+    "url": "git@github.com:Kubide/node-big-xml-streamer.git"
   },
+
+  "author": "Kubide <hola@kubide.es> (http://kubide.es)",
+  "contributors": [
+    "John Hewson",
+    "Ángel Luis Quesada <angel.quesada@kubide.es> (http://gelito.me)"
+  ],
   "engines": {
     "node": ">=0.6.2"
   },
-  "licenses": {
-    "type": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kubide/node-big-xml-streamer/issues"
+  },
+  "homepage": "https://github.com/Kubide/node-big-xml-streamer#readme",
+  "engines": {
+    "node": ">= 0.12.7"
   },
   "dependencies": {
     "node-expat": ">=1.4.4"
   },
   "devDependencies": {},
-  "main" : "./lib"
+  "keywords": [
+    "xml",
+    "parser",
+    "stream",
+    "expat"
+  ]
 }
