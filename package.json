@@ -2,7 +2,7 @@
   "author": "John Hewson",
   "name": "big-xml",
   "description": "Lightweight XML parser for really big files (uses node-expat)",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "homepage": "https://github.com/jahewson/node-big-xml",
   "repository": {
     "type": "git",
@@ -18,5 +18,5 @@
     "node-expat": ">=1.4.4"
   },
   "devDependencies": {},
-  "main" : "./lib"
+  "main": "./lib"
 }
