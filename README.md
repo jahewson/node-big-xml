@@ -41,3 +41,11 @@ The output would take the form:
   ]
 }
 ```
+
+And if you want to handle errors (by default they are thrown):
+
+```
+reader.on('error', function(err) {
+  console.log(err);
+});
+```
