@@ -15,7 +15,8 @@
     "type": "MIT"
   },
   "dependencies": {
-    "node-expat": ">=1.4.4"
+    "node-expat": ">=1.4.4",
+    "unbzip2-stream": "^1.2.5"
   },
   "devDependencies": {},
   "main": "./lib"
