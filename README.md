@@ -31,6 +31,14 @@ reader.on('record', function(record) {
 });
 ```
 
+You can catch the end event of the record:
+
+```javascript
+reader.on('end', function(){
+  console.log("The XML record is done :)");
+});
+```
+
 The output would take the form:
 
 ```javascript
