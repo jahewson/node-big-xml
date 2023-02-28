@@ -18,5 +18,6 @@
     "node-expat": ">=1.4.4"
   },
   "devDependencies": {},
-  "main": "./lib"
+  "main": "./lib",
+  "types": "./lib/index.d.ts"
 }
